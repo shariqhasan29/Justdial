@@ -1,0 +1,29 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.144);
+
+}
+.Navbar img{
+    width: 100px;
+    height: 40px;
+}
+.Nav-list{
+    
+}
+.Nav-list li{
+    display: inline;
+    list-style: none;
+    margin-left: 20px;
+    
+}
+.btn{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}

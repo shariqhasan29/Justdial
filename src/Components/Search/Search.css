@@ -1,0 +1,30 @@
+h2{
+    margin: 10px 50px;
+    font-size: 1.5rem;
+}
+.inputs{
+    display: flex;
+    margin: 20px 50px;
+}
+.input{
+    border: none;
+}
+.input-field{
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.input-field1{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 400px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
