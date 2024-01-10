@@ -1,14 +1,15 @@
 import './App.css';
 import Nav from './Components/Nav/Nav';
 import Search from './Components/Search/Search';
-import Services from './Components/Services/Services';
+import ServiceIcon from './Components/Services/ServiceIcon';
+
 
 function App() {
   return (
     <div className="App">
       <Nav/>
       <Search/>
-      <Services/>
+      <ServiceIcon/>
     </div>
   );
 }
