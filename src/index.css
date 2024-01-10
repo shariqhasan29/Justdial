@@ -17,3 +17,10 @@ code {
   padding: 0;
   box-sizing: border-box;
 }
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin: 50px;
+  gap: 20px;
+}

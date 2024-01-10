@@ -1,18 +1,20 @@
 import React from 'react'
-import "./Services.css"
-import Restaurent from '../Assets/restaurant.png'
+import data from '../data'
+import ServiceIcon from './ServiceIcon'
+import './service.css'
 
 const Services = () => {
-  return (
-    <div className='container'>
-        <div className='service'>
-            <div className='img'>
-                <img src={Restaurent}/>
-            </div>
-            <p>Restaurants</p>
-        </div>
-    </div>
+  
+  return data.map(
+    (data)=>(
+      <ServiceIcon key={Math.random()} img = {data.img} tittle = {data.tittle}/>
+
+    )
+
+   
   )
+  
+  
 }
 
 export default Services
