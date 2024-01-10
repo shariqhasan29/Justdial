@@ -1,6 +1,6 @@
 import React from 'react'
 import './ServicesIcon.css'
-import { useState } from 'react'
+
 
 const ServiceIcon = () => {
 
@@ -62,7 +62,7 @@ const ServiceIcon = () => {
         tittle: "Event"
       },
       {
-        img: 'https://i.pinimg.com/originals/f4/fa/ec/f4faec1798f199132d27ed903701818b.png',
+        img: 'https://st2.depositphotos.com/42546960/45538/v/450/depositphotos_455382696-stock-illustration-letter-logo-design-vector-template.jpg',
         tittle: "PG"
       },
       {
