@@ -19,93 +19,68 @@ const Box = () => {
     <div className='contain'>
 
         <div className='container-box'>
-            
-
-            {wedding.map((data)=>{
-            
-                return(
-                        
-                    <div className='img-box-container'>
-                        
-
-                        <div className='img-box'>
-                            <img src={data.img} alt=''/>
-                            <p>{data.tittle}</p>
-                        </div>
-
-                     </div>
-                )
-
-            })}
-        
-
-        </div>
-{/* 
-        <div className='container-box'>
             <h4>Wedding Requisites</h4>
-
-            {data.map((data)=>{
             
-                return(
-                
-                    <div className='img-box-container'>
-
-                        <div className='img-box'>
-                            <img src={data.img}/>
-                            <p>{data.tittle}</p>
-                        </div>
-
-                     </div>
+            <div className='img-box-container'>
+                {wedding.map((data)=>{
+            
+                return(     
+                    <div className='img-box'>
+                        <img src={data.img} alt=''/>
+                        <p>{data.tittle}</p>
+                    </div>        
                 )
-
-            })}
-        
-
+                })}
+            </div>
         </div>
 
         <div className='container-box'>
             <h4>Wedding Requisites</h4>
-
-            {data.map((data)=>{
             
-                return(
-                
-                    <div className='img-box-container'>
-
-                        <div className='img-box'>
-                            <img src={data.img}/>
-                            <p>{data.tittle}</p>
-                        </div>
-
-                     </div>
+            <div className='img-box-container'>
+                {wedding.map((data)=>{
+            
+                return(     
+                    <div className='img-box'>
+                        <img src={data.img} alt=''/>
+                        <p>{data.tittle}</p>
+                    </div>        
                 )
-
-            })}
-        
-
+                })}
+            </div>
         </div>
 
         <div className='container-box'>
             <h4>Wedding Requisites</h4>
-
-            {data.map((data)=>{
             
-                return(
-                
-                    <div className='img-box-container'>
-
-                        <div className='img-box'>
-                            <img src={data.img}/>
-                            <p>{data.tittle}</p>
-                        </div>
-
-                     </div>
+            <div className='img-box-container'>
+                {wedding.map((data)=>{
+            
+                return(     
+                    <div className='img-box'>
+                        <img src={data.img} alt=''/>
+                        <p>{data.tittle}</p>
+                    </div>        
                 )
+                })}
+            </div>
+        </div>
+        <div className='container-box'>
+            <h4>Wedding Requisites</h4>
+            
+            <div className='img-box-container'>
+                {wedding.map((data)=>{
+            
+                return(     
+                    <div className='img-box'>
+                        <img src={data.img} alt=''/>
+                        <p>{data.tittle}</p>
+                    </div>        
+                )
+                })}
+            </div>
+        </div>
 
-            })}
-        
-
-        </div> */}
 
 
     </div>

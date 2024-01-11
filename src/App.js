@@ -12,6 +12,8 @@ function App() {
       <Search/>
       <ServiceIcon/>
       <Box/>
+      
+      
     </div>
   );
 }
