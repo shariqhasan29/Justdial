@@ -1,5 +1,5 @@
 import React from 'react'
-import './box.css'
+import './category.css'
 
 const Box = () => {
 
@@ -13,6 +13,42 @@ const Box = () => {
         { img: 'https://content.jdmagicbox.com/comp/trichy/z4/0431px431.x431.190917132857.i3z4/catalogue/jas-wedding-planner-subramaniapuram-trichy-caterers-03mwabbwoo.jpg?clr=',
           tittle: 'Caterers'
         },
+]
+
+const spa = [
+    { img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-PGFqJHer2rqltDa8lGMeofqEuyVZLTiF0A&usqp=CAU',
+      tittle: 'spa & massages'
+    },
+    { img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxoy7ri2z-RShmNwlwApF8k5Xxw9Grx2D8IA&usqp=CAU',
+      tittle: 'Beauty Parlours'
+    },
+    { img: 'https://www.ritzmagazine.in/wp-content/uploads/2019/08/1-229.jpg',
+      tittle: 'Saloon'
+    },
+]
+
+const repair = [
+    { img: 'https://www.nobroker.in/blog/wp-content/uploads/2023/01/Onida-AC-service-in-Chennai.jpg',
+      tittle: 'AC Service'
+    },
+    { img: 'https://repairs24.in/assets/img/home/bike1.jpg',
+      tittle: 'Bike Services'
+    },
+    { img: 'https://www.welcomemotors.in/owner-img/banner-1.jpg',
+      tittle: 'Car Services'
+    },
+]
+
+const daily = [
+    { img: 'https://happy-families.s3.ap-southeast-2.amazonaws.com/s3fs-public/styles/max_1300x1300/public/2022-10/AdobeStock_312349880%20%281%29.jpeg?itok=7BxOIvWX',
+      tittle: 'Movies'
+    },
+    { img: 'https://cityfurnish.com/blog/wp-content/uploads/2023/08/healthy-positive-happy-woman-holding-paper-shopping-bag-full-fruit-vegetables-min-1200x806.jpg',
+      tittle: 'grosery'
+    },
+    { img: 'https://porterchester.edu/sites/default/files/field/image/What-Can-I-Do-as-an-Electrician.jpg',
+      tittle: 'Electrician'
+    },
 ]
 
   return (
@@ -35,10 +71,10 @@ const Box = () => {
         </div>
 
         <div className='container-box'>
-            <h4>Wedding Requisites</h4>
+            <h4>Spa & Beauty</h4>
             
             <div className='img-box-container'>
-                {wedding.map((data)=>{
+                {spa.map((data)=>{
             
                 return(     
                     <div className='img-box'>
@@ -51,10 +87,10 @@ const Box = () => {
         </div>
 
         <div className='container-box'>
-            <h4>Wedding Requisites</h4>
+            <h4>Repairs & Services</h4>
             
             <div className='img-box-container'>
-                {wedding.map((data)=>{
+                {repair.map((data)=>{
             
                 return(     
                     <div className='img-box'>
@@ -66,10 +102,10 @@ const Box = () => {
             </div>
         </div>
         <div className='container-box'>
-            <h4>Wedding Requisites</h4>
+            <h4>Daily Needs</h4>
             
             <div className='img-box-container'>
-                {wedding.map((data)=>{
+                {daily.map((data)=>{
             
                 return(     
                     <div className='img-box'>

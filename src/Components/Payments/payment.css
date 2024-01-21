@@ -1,0 +1,38 @@
+.bills{
+    display: flex;
+    border: 1px solid rgba(0, 0, 94, 0.219);
+    border-collapse: initial;
+    
+    border-radius: 5px;
+    margin: 0px 50px;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.bills .border{
+    border-top: none;
+}
+
+.tittles h6{
+    font-size: 2.3rem;
+    font-weight: 300;
+    color: rgba(1, 1, 48, 0.726);
+}
+.tittles p{
+    font-size: 1rem;
+    margin-top: 20px;
+    color: rgba(1, 1, 48, 0.534);
+}
+.bills .icons{
+    gap: 60px;
+
+
+}
+.bills .icons .img img{
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;    
+
+}

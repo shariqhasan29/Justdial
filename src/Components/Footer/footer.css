@@ -1,0 +1,29 @@
+.footer{
+    margin: 50px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}
+.footer h3{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.596);
+    text-align: justify;
+}
+.footer p{
+    font-size: .8rem;
+    color: rgba(0, 0, 0, 0.473);
+    text-align: justify;
+}
+.footer .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}

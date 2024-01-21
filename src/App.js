@@ -1,6 +1,8 @@
 import './App.css';
-import Box from './Components/Box/Box';
+import Category from './Components/Category/Category';
+import Footer from './Components/Footer/Footer';
 import Nav from './Components/Nav/Nav';
+import Payment from './Components/Payments/Payment';
 import Search from './Components/Search/Search';
 import ServiceIcon from './Components/Services/ServiceIcon';
 
@@ -11,7 +13,9 @@ function App() {
       <Nav/>
       <Search/>
       <ServiceIcon/>
-      <Box/>
+      <Category/>
+      <Payment/>
+      <Footer/>
       
       
     </div>
