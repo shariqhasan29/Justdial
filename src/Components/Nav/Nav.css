@@ -10,9 +10,7 @@
     width: 100px;
     height: 40px;
 }
-.Nav-list{
-    
-}
+
 .Nav-list li{
     display: inline;
     list-style: none;
@@ -26,4 +24,8 @@
     border: none;
     border-radius: 5px;
     
+}
+.Nav-list1{
+    list-style: none;
+    display: flex;
 }

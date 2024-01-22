@@ -2,6 +2,8 @@ import React from 'react'
 import './Nav.css'
 import logo from '../Assets/jdlogosvg.svg'
 import { FaBell } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
+
 
 
 const Nav = () => {
@@ -16,7 +18,7 @@ const Nav = () => {
         <li>Advertise</li>
         <li>Free Listing</li>
         <li><FaBell /></li>
-        <li><button className='btn'>Login / Sign Up</button></li>
+        <Link to= '../../Pages/Engineering'><li><button className='btn'>Login / Sign Up</button></li></Link>
 
       </ul>
         

@@ -1,5 +1,7 @@
 import React from 'react'
 import './ServicesIcon.css'
+import { Link } from 'react-router-dom'
+
 
 
 const ServiceIcon = () => {
@@ -91,6 +93,10 @@ const ServiceIcon = () => {
 
   return (
     <div>
+
+      <Link to= '../../Pages/SK'>
+
+    
         <div className='container'>
 
           {data.map((data)=>{
@@ -106,6 +112,8 @@ const ServiceIcon = () => {
           })}
                 
         </div>
+
+      </Link>
  
     </div>
   )

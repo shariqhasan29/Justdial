@@ -1,21 +1,22 @@
 import './App.css';
-import Category from './Components/Category/Category';
-import Footer from './Components/Footer/Footer';
-import Nav from './Components/Nav/Nav';
-import Payment from './Components/Payments/Payment';
-import Search from './Components/Search/Search';
-import ServiceIcon from './Components/Services/ServiceIcon';
+import {BrowserRouter, Routes, Route} from  'react-router-dom'
+import Home from './Pages/Home';
+import SK from './Pages/SK';
+import Engineering from './Pages/Login';
+
+
 
 
 function App() {
   return (
     <div className="App">
-      <Nav/>
-      <Search/>
-      <ServiceIcon/>
-      <Category/>
-      <Payment/>
-      <Footer/>
+     <BrowserRouter>
+        <Routes>
+          <Route path='/' element ={<Home/>}/>
+          <Route path='/Pages/SK' element ={<SK/>}/>
+          <Route path='/Pages/Engineering' element = {<Engineering/>}/>
+        </Routes>
+     </BrowserRouter>
       
       
     </div>
