@@ -1,0 +1,68 @@
+.tittlecard{
+    border: 1px solid rgba(2, 2, 95, 0.178);
+    border-radius: 8px;
+    box-shadow: 1px 0px 2px;
+    margin: 30px;
+    padding: 20px;
+
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.button button{
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.button button:hover{
+    background-color: rgb(175, 175, 175);
+}
+.rating button{
+    background-color: green;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    
+
+}
+.location{
+    display: flex;
+    
+}
+.list{
+    display: flex;
+    
+}
+.list li{
+    margin-left: 30px;
+    color: green;
+}
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+.number{
+    font-size: 1rem;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.301);
+    border: none;
+    border-radius: 5px;
+    color: white;
+
+}
+.other{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.63);
+    border-radius: 5px;
+}
