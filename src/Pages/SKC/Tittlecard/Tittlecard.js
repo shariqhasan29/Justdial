@@ -1,5 +1,6 @@
 import React from 'react'
 import './tittlecard.css'
+import Star from './Star'
 
 const Tittlecard = () => {
   return (
@@ -15,6 +16,7 @@ const Tittlecard = () => {
         </div>
         <div className='rating'>
             <button>1.0</button>
+            <Star/>
         </div>
         <div className='location'>
             <b>Avarampalayam, Coimbatore</b>

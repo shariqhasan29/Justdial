@@ -1,0 +1,28 @@
+.side{
+    position: absolute;
+    top: 52%;
+    left: 65%;
+    margin-right: 30px;
+    
+}
+.address{
+    border: 1px solid rgba(1, 1, 82, 0.39);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 10px;
+}
+.address ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.address ul li{
+    border: 1px solid rgba(0, 0, 0, 0.37);
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.096);
+    
+
+
+}

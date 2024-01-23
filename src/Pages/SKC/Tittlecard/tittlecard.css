@@ -1,7 +1,6 @@
 .tittlecard{
     border: 1px solid rgba(2, 2, 95, 0.178);
     border-radius: 8px;
-    box-shadow: 1px 0px 2px;
     margin: 30px;
     padding: 20px;
 
@@ -11,6 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
     
 }
 .button button{
@@ -22,17 +23,26 @@
 .button button:hover{
     background-color: rgb(175, 175, 175);
 }
+.rating{
+    display: flex;
+    align-items: center;
+}
 .rating button{
     background-color: green;
     color: white;
     padding: 8px;
     border-radius: 5px;
     border: none;
-    
+    margin-right: 30px;
+    width: 50px;
+    font-size: 1rem;
+    font-weight: 600;
 
 }
 .location{
     display: flex;
+    margin-top: 10px;
+
     
 }
 .list{
@@ -60,9 +70,14 @@
 }
 .other{
     font-size: 1rem;
-    font-weight: 600;
     padding: 10px;
     background-color: white;
     border: 1px solid rgba(0, 0, 0, 0.63);
     border-radius: 5px;
+}
+input[type = radio]{
+    display: none;
+}
+.star{
+    cursor: pointer;
 }
